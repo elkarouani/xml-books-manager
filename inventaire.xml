@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Nom de fichier : Inventaire.xml -->
+
+<INVENTAIRE>
+	<LIVRE>
+		<TITRE>Les aventures de Huckleberry Finn</TITRE>
+		<AUTEUR>Mark Twain</AUTEUR>
+		<RELIURE>reliure de grande diffusion</RELIURE>
+		<PAGE>298</PAGE>
+		<PRIX>FF 95.50</PRIX>
+	</LIVRE>
+	<LIVRE>
+		<TITRE>Les feuilles de l'herbe</TITRE>
+		<AUTEUR>Walt Whitman</AUTEUR>
+		<RELIURE>couverture rigide</RELIURE>
+		<PAGE>462</PAGE>
+		<PRIX>FF 35.00</PRIX>
+	</LIVRE>
+	<LIVRE>
+		<TITRE>La l&#233;gende de cavalier sans t&#234;te</TITRE>
+		<AUTEUR>Washington Ivring</AUTEUR>
+		<RELIURE>reliure de grande diffusion</RELIURE>
+		<PAGE>98</PAGE>
+		<PRIX>FF 10.00</PRIX>
+	</LIVRE>
+</INVENTAIRE>
