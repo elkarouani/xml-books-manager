@@ -1,0 +1,30 @@
+<!-- Nom de fichier : inventaire-table.html -->
+
+<html>
+	<head>
+		<title>Inventaire des livres</title>
+	</head>
+
+	<body>
+		<XML id="dsoInventaire" src="inventaire.xml"></XML>
+
+		<h2>Inventaire des livres</h2>
+
+		<table datasrc="#dsoInventaire" border="1" cellpadding="5">
+			<thead>
+				<th>Titre</th>
+				<th>Auteur</th>
+				<th>Reliure</th>
+				<th>Pages</th>
+				<th>Prix</th>
+			</thead>
+			<tr align="center">
+				<td><span datafld="TITRE" style="font-style: italic;"></span></td>
+				<td><span datafld="AUTEUR"></span></td>
+				<td><span datafld="RELIURE"></span></td>
+				<td><span datafld="PAGES"></span></td>
+				<td><span datafld="PRIX"></span></td>
+			</tr>
+		</table>
+	</body>
+</html>
